@@ -19,6 +19,7 @@
 * {
     font-family: 'Be Vietnam Pro', sans-serif;
     color: var(--black);
+    transition: ease-in-out 0.3s;
 }
 
 .playfair{
@@ -26,4 +27,13 @@
   font-optical-sizing: auto;
   font-weight: 600;
   font-style: italic;
+}
+
+.stat {
+    width: full;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-bottom: 8px;
 }
