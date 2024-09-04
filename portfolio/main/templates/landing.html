@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link href="{% static 'css/output.css' %}" rel="stylesheet">
+</head>
+<body class="px-[200px]">
+    <main class="w-full">
+        {% comment %} Navigation bar {% endcomment %}
+        <nav class="flex w-full h-16 items-center justify-between">
+            <div class="logo"></div>
+            <ul class="flex items-center gap-8">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <button class="bg-blue-800 text-white px-4 py-2 rounded-lg">Hire Me</button>
+        </nav>
+
+        <section id="hero" class="w-full h-[calc(100vh-64px)] flex justify-between items-center gap-2">
+            <div class="">
+                <h3 class="text-8xl">Hi, I am a</h3>
+                <h4 class="playfair text-8xl text-blue-800">web developer</h4>
+                <h3 class="text-8xl">based in Nairobi</h3>
+            </div>
+            <div class="">
+                <img class="w-96 rounded-full" src="{% static 'images/hero.jpg' %}" alt="Hero Image">
+            </div>
+        </section>
+
+        <section id="about">
+            <header>
+                <h2 class="text-4xl font-bold">A lil bio about Me</h2>
+
+            </header>
+        </section>
+    </main>
+</body>
+</html>

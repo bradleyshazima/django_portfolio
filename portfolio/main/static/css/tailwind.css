@@ -1,0 +1,29 @@
+@import url('https://fonts.cdnfonts.com/css/be-vietnam-pro');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,600&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --black: #1d262b;
+}
+
+.txtblack {
+    color: var(--black);
+}
+
+.bgblack {
+    background-color: var(--black);
+}
+
+* {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    color: var(--black);
+}
+
+.playfair{
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: italic;
+}

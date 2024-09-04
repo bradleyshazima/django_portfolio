@@ -1,0 +1,21 @@
+# Python
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+*.env
+.env
+
+# Django specific
+/media/
+/staticfiles/
+
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# VS Code
+.vscode/
